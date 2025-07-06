@@ -3,7 +3,11 @@ function getRandomInt(max) {
 }
 
 function getComputerChoice() {
-    choices = ['Rock', 'Paper', 'Scissors']
-    return choices[getRandomInt(3)]
+    choices = ['Rock', 'Paper', 'Scissors'];
+    return choices[getRandomInt(3)];
 }
 
+function getPlayerChoice() {
+    choice = prompt("Enter Rock, Paper or Scissors: ");
+    return choice;
+}
